@@ -1,4 +1,4 @@
-# Schlager AI 2
+# Schlager AI
 
 Schlager lyric generation using transformers
 
@@ -20,8 +20,9 @@ Schlager lyric generation using transformers
 `pip install -r requirements.txt -f https://download.pytorch.org/whl/lts/1.8/torch_lts.html`
 6. Install dev requirements
 `pip install -r requirements-dev.txt`
-6. Install schlag package in edit mode
+7. Install schlag package in edit mode
 `pip install -e .`
+8. Setup Genius and Spotify developer accounts and set `SPOTIFY_CLIENT_ID`, `SPOTIFY_CLIENT_SECRET` and `GENIUS_TOKEN` environment variables (optionally in `.env` to be used by dotenv)
 
 
 ## Repo Structure
@@ -66,7 +67,3 @@ Once approved, the code will be merged into `master` and the feature branch will
 ### Code Linting
 * [pylint](https://www.pylint.org/) is used for linting. To use, just run
 `pylint {source_file_or_directory}`.
-
-### Testing
-* [unittest](https://docs.python.org/3/library/unittest.html) is used for testing. To use, just run
-`python -m unittest` inside the `test/` dir.
