@@ -6,7 +6,7 @@ Schlager lyric generation using transformers
 
 **Requirements**
 * Python 3.8
-* pip 19.0 or later `pip install --upgrade pip` (needed for some of the newer TF modules).
+* pip 19.0 or later `pip install --upgrade pip`
 
 **Environment Setup**
 1. Create virtual environment
@@ -24,6 +24,12 @@ Schlager lyric generation using transformers
 `pip install -e .`
 8. Setup Genius and Spotify developer accounts and set `SPOTIFY_CLIENT_ID`, `SPOTIFY_CLIENT_SECRET` and `GENIUS_TOKEN` environment variables (optionally in `.env` to be used by dotenv)
 
+
+## Usage
+
+1. Scrape dataset `scripts/scraper.py`
+2. Train model `scripts/train.py`
+3. Generate text `scripts/generate.py`
 
 ## Repo Structure
 
