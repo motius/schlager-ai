@@ -1,0 +1,6 @@
+aitextgen==0.5.2
+lyricsgenius==3.0.1
+python-dotenv==0.19.0
+spotipy==2.18.0
+torch==1.8.2+cu111
+transformers==4.6.1
